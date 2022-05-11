@@ -18,11 +18,14 @@ const sayText = 'Say'; */
     { name:'Mike', message:'Hello there!!' },
     { name:'James', message:'Hi!' },
     { name:'Ayo', message:'Hey!'},
-    setUsers(true)
   ]);
+
+  const li = () => {
+    setUsers([{ name:'Mallory', message:'Hello there!!' }])
+  }
  
   return (
-    <div className='app'>
+    <div className='app' onClick={li}>
       {users.map(user => (
         <Tweet name={user.name} message={user.message} />
       ))}
