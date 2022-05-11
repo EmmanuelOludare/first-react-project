@@ -21,7 +21,11 @@ const sayText = 'Say'; */
   ]);
 
   const li = () => {
-    setUsers([{ name:'Mallory', message:'Hello there!!' }])
+    setUsers([
+      { name:'Mallory', message:'Hello there!!' },
+      { name:'Jane', message:'Hi!' },
+    { name:'Ola', message:'Hey!'},
+    ])
   }
  
   return (
