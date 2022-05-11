@@ -17,7 +17,8 @@ const sayText = 'Say'; */
   const [users, setUsers] = useState([
     { name:'Mike', message:'Hello there!!' },
     { name:'James', message:'Hi!' },
-    { name:'Ayo', message:'Hey!'}
+    { name:'Ayo', message:'Hey!'},
+    setUsers(true)
   ]);
  
   return (
